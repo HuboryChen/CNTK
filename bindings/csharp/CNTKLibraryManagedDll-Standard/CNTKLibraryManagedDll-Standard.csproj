@@ -14,6 +14,7 @@
     <OutputPath>..\..\..\x64\$(Configuration)</OutputPath>
     <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
     <Copyright>Copyright © 2016-$([System.DateTime]::Now.ToString(`yy`))</Copyright>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release_NoOpt|x64'">
